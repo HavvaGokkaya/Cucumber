@@ -3,6 +3,7 @@ package utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
@@ -19,10 +20,10 @@ public class Driver {
 
     public static WebDriver getDriver(){
 
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.firefoxdriver().setup();
 
         if (driver==null) {
-            driver = new ChromeDriver();
+            driver = new FirefoxDriver();
         }
 
         driver.manage().window().maximize();

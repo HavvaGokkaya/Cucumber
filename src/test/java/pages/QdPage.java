@@ -19,7 +19,7 @@ public class QdPage {
     @FindBy(id="login-password")
     public WebElement passwordKutusu;
 
-    @FindBy(xpath = "//button[text()='Login']")
+    @FindBy(xpath = "(//button[@type='submit'])[2]")
     public WebElement loginButonu;
 
     @FindBy(xpath = "//a[text()='Instructor']")
