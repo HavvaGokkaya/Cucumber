@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="26.127" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US100 Kullanıcı Amazondda parametre olarak yazdigi kelimeyi aratir" name="TC07 Kullanici parametre ile arama yapabilmeli" time="25.56">
+<system-out><![CDATA[
+Given kullanici Amazon anasayfaya gider.....................................passed
+Then amazonda "Java" icin arama yapar.......................................passed
+And sonuclarin "Java" icerdigini test eder..................................passed
+And 3 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

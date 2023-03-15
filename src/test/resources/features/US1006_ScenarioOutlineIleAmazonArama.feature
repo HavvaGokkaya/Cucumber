@@ -1,6 +1,6 @@
 Feature: US1006 Kullanici Scenario outline ile birden fazla kelime aratir
 
-@wip
+
   Scenario Outline: TC10 Amazon coklu urun testi
 
     Given kullanici "amazonUrl" anasayfaya gider

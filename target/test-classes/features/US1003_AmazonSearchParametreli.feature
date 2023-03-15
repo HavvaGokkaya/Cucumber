@@ -1,5 +1,5 @@
 Feature: US100 Kullanıcı Amazondda parametre olarak yazdigi kelimeyi aratir
-
+@bam
   Scenario: TC07 Kullanici parametre ile arama yapabilmeli
 
     Given kullanici Amazon anasayfaya gider

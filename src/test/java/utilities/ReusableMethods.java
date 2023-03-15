@@ -15,6 +15,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 import java.util.function.Function;
 
 public class ReusableMethods {
@@ -146,5 +147,17 @@ public class ReusableMethods {
         });
 
         return element;
+    }
+
+    public static void switchToWindowHandle(Set<String> handles) {
+        String handle = "";
+        System.out.println(handles);
+        for (String each : handles) {
+            if (!each.equals(handle)) {
+                handle = each;
+            }
+        }
+        Driver.getDriver().switchTo().window(handle);
+        // Mahmut Reis®
     }
 }
